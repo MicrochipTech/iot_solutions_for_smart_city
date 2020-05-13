@@ -15,8 +15,7 @@
 	1. [Hardware](#step3c)
 	1. [Software](#step3d)
 		1. [Smart Home & Building Applications](#step3d1)
-		1. [MiWi Mesh Application](#step3d2)
-		1. [Smart City Dashboard](#step3d3)
+		1. [Smart City Dashboard](#step3d2)
 
 ## Facts and challenges of Smart City <a name="step1"></a>
 
@@ -276,35 +275,9 @@ Until the next Atmel Studio IDE release, you have to manually install the Device
 
 #### Smart Home & Building Applications<a name="step3d1"></a>
 
-Checkout the application source code located into Software/Linux_Python_Application_public.zip package
+In progress
 
-- Application files:
-    - iot_sam.py (main application file)
-    - Eww_robo.py
-    - Eww_robo_misc.py
-    - Piarm.py
-    - Serial_comm.py
-- Robot calibration files:
-    - Eww_robo_calib.json (file which contains the calibration data)
-    - eww_robo_calibration.py (script file)
+#### Smart City Dashboard<a name="step3d2"></a>
 
-#### MiWi Mesh Application<a name="step3d2"></a>
-
-From Software/MiWi.zip package, you are getting two Atmel Studio 7.0 projects.</br>
-
-- ED_XMOD1 (End-Device): Project derived from ASFv3.47 MiWi Mesh EndDevice - WSN Demo Application (SAM R30 Module Xplained Pro)
-- PAN_CORD_MOD (Pan-Coordinator): Project derived from ASFv3.47 MiWi Mesh PanCoordinator - WSN Demo Application (SAM R30 Module Xplained Pro)
-</br>
-The pan coordinator device creates the network and the end device perform an association in order to join the network.</br>
-The end device transmits periodically the temperature information to the pan coordinator.
-
-#### AWS Web Application<a name="step3d3"></a>
-
-Checkout the dashboard source code located into Software/Dashboard_public.zip package.
-</br>
-You need an AWS account and your own certificates. 2 sets of certificate should be provided by AWS (one for the device, one for the web server application).
-
-The package contains:
-- HTML Web page (main.html)
-- Python code for the web server (app.py). The application should run in AWS ec2-instance or run in local network. The images captured by the USB camera are sent over MQTT message and stored in S3 bucket cloud.
+In progress
 
