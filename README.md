@@ -1,4 +1,6 @@
 # iot_solutions_for_smart_city
+<img src="Doc/IoT-Made-Easy-Logo.png" width=100>
+
 > “Wireless Made Fun!" - IoT Solutions for Smart City
 
 1. [Facts and challenges of Smart City](#step1)
